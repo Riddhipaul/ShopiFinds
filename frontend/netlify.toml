@@ -3,16 +3,15 @@
   publish = "dist"
 
 # 1) Proxy API + masked short links to the Flask backend.
-#    >>> Replace https://YOUR-BACKEND.onrender.com with your deployed Flask URL. <<<
 [[redirects]]
   from = "/api/*"
-  to = "https://YOUR-BACKEND.onrender.com/api/:splat"
+  to = "https://theclassyfindz.onrender.com/api/:splat"
   status = 200
   force = true
 
 [[redirects]]
   from = "/go/*"
-  to = "https://YOUR-BACKEND.onrender.com/go/:splat"
+  to = "https://theclassyfindz.onrender.com/go/:splat"
   status = 200
   force = true
 
