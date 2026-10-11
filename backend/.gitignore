@@ -1,0 +1,15 @@
+# secrets - Google key files
+.env
+.env.*
+
+# local data (contains your affiliate links)
+backend/data.json
+data.json
+
+# build / dependencies
+node_modules/
+dist/
+.venv/
+venv/
+__pycache__/
+*.pyc
