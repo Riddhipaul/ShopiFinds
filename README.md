@@ -17,7 +17,7 @@ Customers only ever see `yoursite.com/go/k7x2a9`.
 cd backend
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-ADMIN_TOKEN=secret123 python app.py          # http://localhost:5000
+python app.py          # http://localhost:5000
 
 # terminal 2
 cd frontend
@@ -56,7 +56,7 @@ Pick the store in `/admin`:
 cd frontend && npm install && npm run build      # builds frontend/dist
 cd ../backend && python app.py                   # now http://localhost:5000/admin works
 ```
-Without the build, Flask only serves `/api/*` and `/go/*`; run `npm run dev` and open http://localhost:5173/admin instead.
+Without the build, Flask only serves `/api/*` and `/go/*`; run `npm run dev` and openinstead.
 
 
 ## Persistent data with Supabase (free Postgres) + Render
